@@ -11,6 +11,46 @@
 		margin:0;
 		box-sizing:border-box;
 	}
+	.container3 {
+		width:80%;
+		margin:0 auto;
+	}
+	header {
+		background:#ffd79d; 
+	}
+
+	header::after {
+		content:'';
+		display:table;
+		clear: both;
+	}
+	nav { 
+		float:right;
+		position:fixed'top: 0; left: 0; right: 0';
+	}
+
+	nav ul {
+		list-style:none;
+		margin:0;
+		padding:20px 0;
+	}
+		
+	nav li { 
+      		display: inline-block;	
+		margin-left:20px;
+	}
+
+	nav a {
+		color:#000;
+		text-decoration:none;
+		text-transform:uppercase;
+	}
+	
+	nav a:hover {
+		color:magenta;
+	}
+
+
 	section {
 		padding:40px 15%;
 	}
@@ -101,6 +141,20 @@
 	</style>
 
 <body>
+	<header>
+		<div class="container3">
+			<nav>
+				<ul>
+					<li><a href="About.html">About<sup>01</sup></a></li>
+					<li><a href="ProjectsDopework.html">Projects/Dopework<sup>02</sup></a></li>
+					<li><a href="Inspiration.html">Inspiration<sup>03</sup></a></li>
+					<li><a href="Contact.html">Contact<sup>04</sup></a></li>
+					<li><a href="Music.html">Music<sup>05</sup></a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</header>
 	<section class="contact">
 		<div class="contact-form">
 			<h1>Contact<span>Me</span></h1>

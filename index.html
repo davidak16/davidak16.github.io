@@ -10,7 +10,8 @@
 
 	<style>
 
-	body {
+	#lefthalf {
+		
 		background-image:url("img/portfoliopic.jpg");
 		background-repeat:no-repeat;
 		width:50%;
@@ -18,7 +19,12 @@
 		left:0px;
 		height:100%	
 	}
-
+	#righthalf{
+		width: 50%;
+  	 	position: absolute;
+   		right: 0px;
+   		height: 100%;
+	}
 	header {
 		<!-- Put name in top left corner
 	} -->
@@ -84,6 +90,7 @@
 	</style>
 
 	<body style="background-color:#320d3e;">
+		<div id="righthalf" >
 
 		
 		<nav>
@@ -101,7 +108,7 @@
 				<li><a href="Intuit.html">Intuit Project<sup>06</sup></a></li>
 			</ul>
 		</nav>
-		
+		</div>
 		<button class="button open-button">Click Here!</button>
 
 		<dialog class="modal" id="modal">
